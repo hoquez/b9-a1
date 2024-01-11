@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
 }
 .banner-1{
-    background-image: url(./resources/banner.png);
+    background-image: url(/resources/banner.png);
     width: 1320px;
     height: 600px;
     background-position: center;
@@ -59,6 +59,10 @@ html {
 }
 
 .banner-2 {
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    background: url(/resources/Vectorrr.png);
 
 }
 /* font-family: 'Inter', sans-serif;

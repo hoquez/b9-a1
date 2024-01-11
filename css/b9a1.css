@@ -145,6 +145,64 @@ html {
 .venue .place {
     margin-top: 10rem;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1320px;
+    height: 463px;
+    margin: 10px auto;
+}
+.container .box1 h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #F00;
+
+}
+.container .box1 h2{
+    font-family: 'Merriweather', serif;
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: #070211;
+
+}
+.container .box1 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+
+}
+.container .box2 img {
+    border: 8px solid #F00;
+    border-radius: 50%;
+    padding: 25px;
+}
+.container .box3 {
+    margin-left: 10rem;
+}
+.container .box3 h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container .box3 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+.container_firework {
+    width: 365px;
+    height: 365px;
+}
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 

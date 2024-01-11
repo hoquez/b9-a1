@@ -1,3 +1,66 @@
 html {
     font-size: 62.5%;
 }
+.banner-1{
+    background-image: url(/resources/Banner.png);
+    width: 1320px;
+    height: 600px;
+    background-position: center;
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.banner-1 > h3 {
+    font-weight: 400;
+    font-size: 3.2rem;
+    margin: 0;
+}
+.banner-1 > h1 {
+    font-weight: 900;
+    font-size: 7.2rem;
+    margin: 0;
+}
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+.offer > h1 {
+    color: #F00;
+    font-size: 8.8rem;
+    font-weight: 700;
+    margin-top: 6.5rem;
+    margin-bottom: 2rem;
+}
+.offer > p {
+    color: #F00;
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+.offer > h3 {
+    color: #070211;
+    font-size: 4.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 2rem 0;
+}
+
+.banner-2 {
+    
+}
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+

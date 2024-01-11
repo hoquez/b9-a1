@@ -63,7 +63,47 @@ html {
     height: 600px;
     position: relative;
     background: url(/resources/Vectorrr.png);
+    background-position: center;
+    font-family: 'Merriweather', serif;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 8rem auto;
 
+}
+.newyear {
+    position: relative;
+    top: 150px;
+    right: -350px;
+
+}
+.banner-2 > article {
+    position: relative;
+    top: -300px;
+    right: 300px;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.banner-2 > article > h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 6.4rem;
+    font-weight: 900;
+    margin-bottom: 0;
+    letter-spacing: 8px;
+}
+.banner-2 > article > p, a {
+    font-family: 'Inter', serif;
+} 
+.banner-2 > article > a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 5rem;
 }
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */

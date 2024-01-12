@@ -248,8 +248,45 @@ html {
     display: inline-block;
     position: absolute;
     top: 350px;
-    right: 280px;
+    right: 280px;   
+}
+.gallary {
+    margin: 0 auto;
+    width: 1320px;
+    height: 1163px;
+
+}
+.gallary > h4, p {
+    font-family: Inter;  
+}
+.gallary > h4 {
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.gallary >h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+}
+.gallary > p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
     
+}
+.gallary .gallary-image {
+    grid-template-columns: repeat(2,1fr);
+}
+.gallary-image img:hover{
+    transform: scale(1.1);
 }
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */

@@ -62,7 +62,7 @@ html {
     width: 1320px;
     height: 600px;
     position: relative;
-    background: url(/resources/Vectorrr.png);
+    background: url(../resources/Vectorrr.png);
     background-position: center;
     font-family: 'Merriweather', serif;
     color: #FFF;

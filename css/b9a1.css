@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
 }
 .banner-1{
-    background-image: url(/resources/banner.png);
+    background-image: url(/resources/Banner.png);
     width: 1320px;
     height: 600px;
     background-position: center;
@@ -199,9 +199,36 @@ html {
     font-weight: 400;
     line-height: 32px; /* 160% */
 }
-.container_firework {
-    width: 365px;
-    height: 365px;
+.sale {
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+}
+.sale article h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10rem;
+}
+.sale article h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+}
+.sale article h1 span {
+    color: #F00;
+}
+.sale article p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+.sale-image {
+    position: relative;
 }
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */

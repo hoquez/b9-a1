@@ -283,10 +283,112 @@ html {
     
 }
 .gallary .gallary-image {
-    grid-template-columns: repeat(2,1fr);
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
 }
 .gallary-image img:hover{
     transform: scale(1.1);
+}
+.newsletter {
+    margin: 0 auto;
+    width: 1320px;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    border-radius: 16px;
+}
+.newsletter img {
+    margin-top: 8rem;
+}
+.newsletter h3 {
+    color: #070211;
+    font-family: 'Merriweather', serif ;
+    font-size: 4.8rem;
+    font-weight: 900;
+    margin: 2rem 0 0 0;
+}
+.newsletter p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.newsletter input {
+    padding: 1.45rem 25rem 1.45rem 1.5rem;  
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 0;
+    outline: 0;
+}
+::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.3);
+}
+.btn {
+    background-color: #F00;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.subs {
+    margin-top: 3rem;
+}
+.page-footer{
+    width: 1600px;
+    height: 609px;
+    background-color: #070211;
+    margin: 10rem auto 0 auto;
+    color: #FFF;
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+}
+.info p{
+    padding: 15rem 0 0 20rem;
+    font-style: normal;
+}
+.phone {
+    padding: 0rem 0 0 50rem;
+    margin-top: 0;
+
+}
+.page-footer .info .phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.copyright {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright .cp {
+    padding-left: 20rem;
+}
+
+.copyright .unsub {
+    padding-left: 58rem;
 }
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */

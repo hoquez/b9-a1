@@ -203,6 +203,10 @@ html {
     text-align: center;
     font-style: normal;
     line-height: normal;
+    margin: 0 auto;
+    width: 1320px;
+    height: 986px;
+    position: relative;
 }
 .sale article h3 {
     color: #070211;
@@ -227,8 +231,25 @@ html {
     font-weight: 500;
     line-height: 32px; /* 160% */
 }
-.sale-image {
-    position: relative;
+.sale .sale-smile {
+    float: right;
+    
+}
+.sale::after {
+    content: url(../resources/group75.png);
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    right: 550px;
+    
+}
+.sale::before {
+    content: url(../resources/group44.png);
+    display: inline-block;
+    position: absolute;
+    top: 350px;
+    right: 280px;
+    
 }
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */

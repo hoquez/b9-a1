@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
 }
 .banner-1{
-    background-image: url(resources/Banner.png);
+    background-image: url(../resources/Banner.png);
     width: 1320px;
     height: 600px;
     background-position: center;
